@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "header-paises-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/headerPaises/HeaderPaisesApplicationCustomizer.js",
+          "manifest": "./src/extensions/headerPaises/HeaderPaisesApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HeaderPaisesApplicationCustomizerStrings": "lib/extensions/headerPaises/loc/{locale}.js"
+  }
+}
